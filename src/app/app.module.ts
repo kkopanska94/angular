@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CourseComponent } from './course/course.component';
+import { HeaderComponent } from './header/header.component';
+import { AdressCardComponent } from './adress-card/adress-card.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CourseComponent
+    HeaderComponent,
+    AdressCardComponent,
   ],
   imports: [
     BrowserModule,
