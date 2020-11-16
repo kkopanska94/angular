@@ -1,10 +1,9 @@
-
-    <div class="col-md-6 col-lg-4 col-xl-3">
-        <h5 class="footer-modern-title oh-desktop"><span class="d-inline-block wow slideInLeft">Information</span></h5>
-        <ul>
-        <!-- Der Inhalt der Liste wird nicht angezeigt Stattdesen nur Bindings Kommentar Node fehlerfrei -->
-          <li *ngFor="let item of liste">
-            <span>{{item.id}}</span> {{item.name}}
+<nav class="navbar navbar-expand-sm bg-light">
+    <div class="row">
+        <ul class="navbar-nav mr-auto">
+          <li *ngFor="let item of liste" class="nav-item p-2 m-2 text-center rounded-lg border border-secondary">
+            <span>{{item.id}}.</span> {{item.name}}
           </li>
         </ul>
     </div>
+  </nav>

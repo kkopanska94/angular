@@ -9,9 +9,11 @@ import {LISTE} from '../liste-seiten';
 export class HeaderComponent implements OnInit {
 
   liste = LISTE;
+ 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+ 
 }
